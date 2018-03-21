@@ -1,0 +1,19 @@
+/vis/open OGL 600x600-0+0
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 45 45
+/vis/viewer/zoom 4
+
+/vis/viewer/zoom 2
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. 100. mm
+/gps/pos/radius 2.5 cm
+/gps/pos/halfz 4. cm
+/gps/ang/type focused
+/gps/ene/type Lin
+/gps/energy 4. MeV
+
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+/tracking/verbose 1
